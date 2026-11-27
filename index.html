@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VN — Alta Perfumaria</title>
+<meta name="description" content="Fragrâncias selecionadas para quem encontra nos detalhes sua própria identidade. Curadoria de alta perfumaria.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="VN — Alta Perfumaria">
+<meta property="og:description" content="Uma assinatura que vai além do perfume.">
+<meta property="og:image" content="logo.png">
+<meta name="theme-color" content="#F5F2EC">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<div class="progress" aria-hidden="true"></div>
+
+<div class="loader" aria-hidden="true"><img src="logo.png" alt=""></div>
+
+<header class="header" id="header">
+  <a href="#inicio" class="brand" aria-label="VN — início"><img src="logo.png" alt="Logo VN" width="46" height="46"></a>
+  <nav class="nav" aria-label="Principal">
+    <a href="#inicio" class="ul">Início</a>
+    <a href="#colecao" class="ul">Coleção</a>
+    <a href="#marcas" class="ul">Marcas</a>
+    <a href="#essencia" class="ul">Nossa essência</a>
+    <a href="#contato" class="ul">Contato</a>
+  </nav>
+  <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <a href="#inicio">Início</a><a href="#colecao">Coleção</a><a href="#marcas">Marcas</a><a href="#essencia">Nossa essência</a><a href="#contato">Contato</a>
+</div>
+
+<main id="conteudo">
+<section class="hero" id="inicio">
+  <div class="hero-text">
+    <p class="small hl">The art of fine fragrance</p>
+    <h1 class="split hl">Uma assinatura que vai além do perfume.</h1>
+    <p class="lead hl">Descubra fragrâncias que traduzem personalidade, sensibilidade e experiências únicas.</p>
+    <a href="#colecao" class="btn hl"><span>Explorar fragrâncias</span></a>
+  </div>
+  <figure class="hero-img"><div class="par" data-speed="0.12"><div class="slot" data-img="hero" data-label="Foto principal do hero — perfume de nicho, luz natural"></div></div></figure>
+  <div class="scroll-cue hl" aria-hidden="true"><i></i>Role</div>
+</section>
+
+<section class="exp" id="experiencia">
+  <div class="exp-title">
+    <h2 class="split">Não é apenas uma fragrância. É uma presença.</h2>
+  </div>
+  <figure class="exp-big rv"><div class="par" data-speed="0.1"><div class="slot" data-img="exp1" data-label="Imagem editorial grande"></div></div></figure>
+  <div class="exp-copy">
+    <p class="lead fade">Cada fragrância carrega uma identidade, uma memória e uma maneira única de se expressar. Descubra o universo da alta perfumaria através de composições que despertam sensações e permanecem na memória.</p>
+  </div>
+  <figure class="exp-small rv"><div class="par" data-speed="-0.12"><div class="slot" data-img="exp2" data-label="Imagem complementar"></div></div></figure>
+</section>
+
+<section class="col" id="colecao">
+  <header class="sec-head">
+    <h2 class="split">Fragrâncias selecionadas.</h2>
+    <p class="lead fade">Uma seleção para quem encontra nos detalhes sua própria identidade.</p>
+  </header>
+  <div class="filters" id="filters" role="tablist" aria-label="Categorias"></div>
+  <div class="grid" id="grid"></div>
+  <p class="note">Conteúdo demonstrativo. Edite os produtos no objeto CONFIG em script.js.</p>
+</section>
+
+<section class="brands" id="marcas">
+  <h2 class="split">Grandes nomes, identidades únicas.</h2>
+  <ul class="brand-list" id="brandList"></ul>
+</section>
+
+<section class="sense" id="sensorial">
+  <div class="sense-head">
+    <h2 class="split">A beleza está na composição.</h2>
+    <p class="lead fade">Notas, acordes e combinações que transformam uma fragrância em uma experiência pessoal.</p>
+  </div>
+  <figure class="s1 rv"><div class="par" data-speed="0.15"><div class="slot" data-img="s1" data-label="Flores"></div></div></figure>
+  <figure class="s2 rv"><div class="par" data-speed="-0.1"><div class="slot" data-img="s2" data-label="Madeiras"></div></div></figure>
+  <figure class="s3 rv"><div class="par" data-speed="0.2"><div class="slot" data-img="s3" data-label="Especiarias"></div></div></figure>
+  <figure class="s4 rv"><div class="par" data-speed="-0.15"><div class="slot" data-img="s4" data-label="Vidro e textura"></div></div></figure>
+</section>
+
+<section class="about" id="essencia">
+  <figure class="about-img rv"><div class="par" data-speed="0.1"><div class="slot" data-img="about" data-label="Imagem lifestyle"></div></div></figure>
+  <div class="about-copy">
+    <h2 class="split">Uma curadoria feita para quem aprecia o extraordinário.</h2>
+    <p class="fade" id="aboutText"></p>
+  </div>
+</section>
+
+<section class="insta" id="instagram">
+  <header class="sec-head">
+    <h2 class="split">Acompanhe nosso universo.</h2>
+  </header>
+  <div class="insta-grid" id="instaGrid"></div>
+  <a href="#" class="btn" id="instaBtn" target="_blank" rel="noopener"><span>Acompanhar no Instagram</span></a>
+</section>
+
+<section class="contact" id="contato">
+  <h2 class="split">Encontre sua próxima assinatura.</h2>
+  <p class="lead fade">Descubra novas fragrâncias e encontre aquela que combina com sua personalidade.</p>
+  <a href="#" class="btn btn-light fade" id="contactBtn" target="_blank" rel="noopener"><span>Fale conosco</span></a>
+</section>
+</main>
+
+<footer class="footer">
+  <img src="logo.png" alt="Logo VN" width="64" height="64" loading="lazy">
+  <nav aria-label="Rodapé">
+    <a href="#inicio" class="ul">Início</a><a href="#colecao" class="ul">Coleção</a><a href="#marcas" class="ul">Marcas</a><a href="#essencia" class="ul">Nossa essência</a><a href="#contato" class="ul">Contato</a>
+  </nav>
+  <div class="foot-links"><a href="#" class="ul" id="footInsta" target="_blank" rel="noopener">Instagram</a><a href="#" class="ul" id="footWpp" target="_blank" rel="noopener">Contato</a></div>
+  <p class="copy">© <span id="year"></span> VN. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
