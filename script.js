@@ -2,7 +2,7 @@
    Tudo abaixo é DEMONSTRATIVO até você preencher com dados reais. */
 const CONFIG = {
   instagram: "https://www.instagram.com/vasconcelosniche/",
-  contactUrl: "",
+  contactUrl: "https://www.instagram.com/vasconcelosniche/",
   aboutText: "Uma maison de alta perfumaria em João Pessoa, dedicada à curadoria internacional de fragrâncias de nicho. Na Avenida Esperança, 473 — Manaíra, cada fragrância é escolhida para traduzir identidade, memória e presença.",
   images: {
     hero: "https://github.com/user-attachments/assets/59c140d5-d89f-4fd2-9c7c-aaaef11b2fba",
