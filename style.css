@@ -135,6 +135,7 @@ figure{overflow:hidden}
 .footer{background:var(--ink);color:var(--sand);padding:70px var(--pad) 36px;display:grid;grid-template-columns:auto 1fr auto;gap:30px 60px;align-items:center;font-size:13px}
 .footer img{border-radius:50%}
 .footer nav,.foot-links{display:flex;gap:28px;flex-wrap:wrap}
+.foot-links a{display:inline-flex;align-items:center}
 .copy{grid-column:1/-1;border-top:1px solid #333;padding-top:26px;color:var(--grey);font-size:12px}
 
 /* responsive */
