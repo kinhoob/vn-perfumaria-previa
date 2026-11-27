@@ -1,18 +1,31 @@
 /* ============ CONFIG — edite aqui ============
    Tudo abaixo é DEMONSTRATIVO até você preencher com dados reais. */
 const CONFIG = {
-  instagram: "",            // ex.: "https://instagram.com/seuperfil"
-  contactUrl: "",           // ex.: "https://wa.me/55DDDNUMERO"
-  aboutText: "Substitua este texto pela apresentação real da loja, baseada no perfil do Instagram.",
-  // Caminhos das fotos (ex.: "img/hero.jpg"). Vazio = espaço reservado.
-  images: { hero:"", exp1:"", exp2:"", s1:"", s2:"", s3:"", s4:"", about:"" },
-  brands: ["Marca demo 01", "Marca demo 02", "Marca demo 03", "Marca demo 04", "Marca demo 05"],
-  products: [ // price e concentration são opcionais
-    { name:"Fragrância demo 01", brand:"Marca demo 01", concentration:"Eau de Parfum", price:"", category:"Todas", img:"", url:"" },
-    { name:"Fragrância demo 02", brand:"Marca demo 02", concentration:"Parfum",        price:"", category:"Todas", img:"", url:"" },
-    { name:"Fragrância demo 03", brand:"Marca demo 03", concentration:"Eau de Toilette", price:"", category:"Todas", img:"", url:"" }
+  instagram: "https://www.instagram.com/vasconcelosniche/",
+  contactUrl: "",
+  aboutText: "Uma maison de alta perfumaria em João Pessoa, dedicada à curadoria internacional de fragrâncias de nicho. Na Avenida Esperança, 473 — Manaíra, cada fragrância é escolhida para traduzir identidade, memória e presença.",
+  images: {
+    hero: "https://github.com/user-attachments/assets/59c140d5-d89f-4fd2-9c7c-aaaef11b2fba",
+    exp1: "https://github.com/user-attachments/assets/c8611a3e-89b3-4e65-9520-57962e1fd7dc",
+    exp2: "https://github.com/user-attachments/assets/288126e5-929c-46f9-86ba-6b0d0706ef48",
+    s1: "https://github.com/user-attachments/assets/05bb6ce8-34b2-40c2-8df6-13df55a6e34a",
+    s2: "https://github.com/user-attachments/assets/11698c6e-2e86-4ee1-a695-94e852b05b31",
+    s3: "https://github.com/user-attachments/assets/9a9d8fc2-aa71-4137-bf0f-a9e35aa53ba7",
+    s4: "https://github.com/user-attachments/assets/73cdc520-231e-4469-9c78-054ac2426095",
+    about: "https://github.com/user-attachments/assets/8d91a002-0243-4cf1-8b8d-ed4390c454ff"
+  },
+  brands: ["Xerjoff", "Nishane", "Byredo"],
+  products: [
+    { name:"Nishane", brand:"Alta perfumaria de nicho", concentration:"", price:"", category:"Todas", img:"https://github.com/user-attachments/assets/d596bcbf-1697-4f23-904e-62244cfa6e6a", url:"" },
+    { name:"Xerjoff", brand:"Alta perfumaria de nicho", concentration:"", price:"", category:"Todas", img:"https://github.com/user-attachments/assets/775c6bbe-4d45-4fa5-92e4-795a05aaa91e", url:"" },
+    { name:"Xerjoff", brand:"Alta perfumaria de nicho", concentration:"", price:"", category:"Todas", img:"https://github.com/user-attachments/assets/41ca715a-971a-4396-ae1e-c6a4f8a2a599", url:"" }
   ],
-  instaPosts: [ { img:"", url:"" }, { img:"", url:"" }, { img:"", url:"" }, { img:"", url:"" } ]
+  instaPosts: [
+    { img:"https://github.com/user-attachments/assets/303b0a84-7296-41aa-a87c-112bffa18bd9", url:"https://www.instagram.com/vasconcelosniche/reel/DfqGxKfxi8q/" },
+    { img:"https://github.com/user-attachments/assets/4c9c3395-379c-4fac-9c4f-2a53ac045850", url:"https://www.instagram.com/vasconcelosniche/reel/DfvnuDvxjfP/" },
+    { img:"https://github.com/user-attachments/assets/0f1006ed-fe8f-4456-ad26-0f8d28c3945e", url:"https://www.instagram.com/vasconcelosniche/reel/DgDZxgoRdB0/" },
+    { img:"https://github.com/user-attachments/assets/1e491889-33a5-4085-a365-55de3ae8050d", url:"https://www.instagram.com/vasconcelosniche/reel/Df-0bUExRpg/" }
+  ]
 };
 
 /* ============ helpers ============ */
